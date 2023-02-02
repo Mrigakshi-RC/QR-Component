@@ -1,0 +1,43 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+.white-box {
+  max-width: 330px;
+  max-height: 530px;
+  background-color: hsl(0, 0%, 100%);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  border-radius: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 8px 10px -13px black;
+}
+img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: 5%;
+}
+h2,
+p {
+  font-family: "Outfit", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 700;
+  color: hsl(218, 44%, 22%);
+  padding-top: 7px;
+  width: 90%;
+}
+p {
+  margin-top: -1px;
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+  width: 80%;
+}
